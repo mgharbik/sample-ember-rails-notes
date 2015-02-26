@@ -7,5 +7,5 @@
 #= require notes
 
 # for more details see: http://emberjs.com/guides/application/
-window.Notes = Ember.Application.create()
-
+window.Notes = Ember.Application.create
+  LOG_TRANSITIONS: true
