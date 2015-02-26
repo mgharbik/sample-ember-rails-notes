@@ -1,5 +1,2 @@
-# Override the default adapter with the `DS.ActiveModelAdapter` which
-
-Notes.ApplicationAdapter = DS.ActiveModelAdapter.extend({
-
-})
+Notes.ApplicationAdapter = DS.ActiveModelAdapter.extend
+  host 'http://0.0.0.0:3000'

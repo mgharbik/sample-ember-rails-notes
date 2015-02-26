@@ -1,0 +1,1 @@
+Notes.ApplicationStore = DS.Store.extend

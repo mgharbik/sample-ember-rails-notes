@@ -5,7 +5,7 @@
 #= require ember-data
 #= require_self
 #= require notes
+#= require libs/localstorage_adapter
 
-# for more details see: http://emberjs.com/guides/application/
 window.Notes = Ember.Application.create
   LOG_TRANSITIONS: true
