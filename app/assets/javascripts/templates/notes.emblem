@@ -1,6 +1,6 @@
 #notes class="azureBlueBackground azureBlueBorderThin"
-  = input valueBinding="newNoteName"
-  button class="btn btn-default btn-xs" action="createNewNote" New Note
+  input type="text" valueBinding="newNoteName"
+  input type='submit' value='New Note' click="createNewNote"
 
   .list-group style="margin-top: 10px;"
     = each controller

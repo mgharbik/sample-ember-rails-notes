@@ -14,8 +14,7 @@ Notes.NotesController = Ember.ArrayController.extend
 
       if unique
       	newNote = @store.createRecord('note')
-      	newNote.set('id', newNoteName)
       	newNote.set('name', newNoteName)
       	newNote.save()
       else
-      	alert 'Note must have a unique name of at least 2 characters!'    
+        alert 'Note must have a unique name of at least 2 characters!'

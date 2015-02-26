@@ -11,6 +11,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'ember-rails'
 gem 'emblem-rails'
+gem 'faker'
 
 group :development, :test do
   gem 'byebug'
