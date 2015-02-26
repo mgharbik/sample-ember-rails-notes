@@ -1,0 +1,8 @@
+#notes class="azureBlueBackground azureBlueBorderThin"
+  = input valueBinding="newNoteName"
+  button class="btn btn-default btn-xs" action="createNewNote" New Note
+
+  .list-group style="margin-top: 10px;"
+    = each controller
+      .list-group-item
+        = name
